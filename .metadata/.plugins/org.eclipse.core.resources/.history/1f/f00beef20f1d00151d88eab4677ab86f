@@ -1,0 +1,12 @@
+package serverInterface;
+
+public interface IAuthentication {
+
+	public String encrypt(String pass);
+	
+	public String decrypt(String pass);
+	
+	public void requestAuthentication();
+	
+	public void verifyUser();
+}

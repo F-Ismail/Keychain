@@ -1,0 +1,6 @@
+package serverInterface;
+
+public interface IConsoleOutput {
+
+	public void initPage();
+}

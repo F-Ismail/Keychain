@@ -1,0 +1,13 @@
+package serverImplementation;
+
+import serverInterface.IConsoleOutput;
+
+public class ConsoleOutput implements IConsoleOutput {
+
+	@Override
+	public void initPage() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

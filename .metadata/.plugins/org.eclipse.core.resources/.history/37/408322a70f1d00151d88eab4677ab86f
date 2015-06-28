@@ -1,0 +1,31 @@
+package serverImplementation;
+
+import serverInterface.IAuthentication;
+
+public class Authentication implements IAuthentication {
+
+	@Override
+	public String encrypt(String pass) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String decrypt(String pass) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void requestAuthentication() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void verifyUser() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

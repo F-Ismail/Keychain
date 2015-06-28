@@ -1,0 +1,50 @@
+package serverImplementation;
+
+import java.io.Console;
+
+import serverInterface.IAuthentication;
+
+public class Authentication implements IAuthentication {
+
+	@Override
+	public String encrypt(String pass) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String decrypt(String pass) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void requestAuthentication() 
+	{
+		String user = null;
+		String pass = null;
+		
+		Console console = System.console();
+		
+		while (user != IAuthentication.AdminUser && pass != IAuthentication.AdminPass) {
+			System.out.print("Enter Username: ");
+			user = console.readLine();
+			
+			System.out.print("Enter Passwork: ");
+			pass = console.readLine();
+			
+			if(user != IAuthentication.AdminUser && pass != IAuthentication.AdminPass)
+				break;
+		}
+		System.out.println("Enter Username");
+		
+
+		
+		
+	}
+
+	boolean verifyUser(String user, String pass)
+	{
+		
+	}
+
+}

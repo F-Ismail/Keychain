@@ -1,0 +1,22 @@
+package source;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import serverInterface.IConsoleOutput;
+
+public class source {
+
+	public static void main(String[] args) {
+		IConsoleOutput cout = null;
+		try {
+			cout.initPage();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

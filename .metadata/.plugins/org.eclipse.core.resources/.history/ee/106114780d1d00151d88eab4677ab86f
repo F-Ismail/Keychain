@@ -1,0 +1,13 @@
+package serverImplementation;
+
+import serverInterface.IConsoleOutput;
+import java.io.*;
+public class ConsoleOutput implements IConsoleOutput {
+
+	public void initPage() {
+		
+		
+
+	}
+
+}
